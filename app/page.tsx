@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="relative flex min-h-full flex-1 flex-col overflow-hidden">
@@ -15,6 +17,15 @@ export default function Home() {
       />
 
       <main className="relative z-10 flex flex-1 flex-col items-center justify-center px-6 py-20 text-center">
+        <Image
+          src="/uxbridge-coat-of-arms.png"
+          alt="Coat of arms of Uxbridge"
+          width={522}
+          height={478}
+          priority
+          className="mb-8 h-auto w-40 drop-shadow-md sm:w-52 md:w-60"
+        />
+
         <p className="mb-6 text-sm font-medium uppercase tracking-[0.25em] text-accent">
           URA
         </p>
