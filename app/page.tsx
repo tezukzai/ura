@@ -39,6 +39,11 @@ export default function Home() {
           its way.
         </p>
 
+        <p className="mt-4 max-w-xl text-base leading-relaxed text-muted">
+          This association is independent and not affiliated with any alliance
+          or umbrella group.
+        </p>
+
         <div className="mt-10 inline-flex items-center gap-2 rounded-full border border-accent/20 bg-white/60 px-5 py-2.5 text-sm font-medium text-accent backdrop-blur-sm">
           <span className="relative flex h-2 w-2">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-light opacity-75" />
