@@ -47,15 +47,6 @@ export default function Home() {
           Coming soon
         </div>
 
-        <p className="mt-16 text-sm text-muted">
-          Questions?{" "}
-          <a
-            href="mailto:info@uxbridgeresidents.org"
-            className="font-medium text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:text-accent-light hover:decoration-accent-light"
-          >
-            info@uxbridgeresidents.org
-          </a>
-        </p>
       </main>
 
       <footer className="relative z-10 px-6 py-6 text-center text-xs text-muted">
